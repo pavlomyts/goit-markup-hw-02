@@ -1,3 +1,125 @@
-a {
+.body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
   text-decoration: none;
+}
+/* HEARED */
+
+.header {
+  color: #ffffff;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header-logo-second {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.header-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #2196f3;
+}
+.header-tel-link:hover,
+.header-tel-link:focus {
+  color: #2196f3;
+  /* MAIN */
+}
+.hero-banner {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+
+.button {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 875px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.footer {
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.footer-logo {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-tel-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.button-portfolio {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
