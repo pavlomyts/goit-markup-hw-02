@@ -1,5 +1,16 @@
+:root {
+  --accent-color: #2094f3;
+  --header-backgraund: #ffffff;
+  --titles-color: #000000;
+  --header-logo: #2094f3;
+  --button-portfolio-backgraund: #2196f3;
+  --button-portfolio-text-color: #ffffff;
+  --body-main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--body-main-font);
   font-style: normal;
 }
 .list {
@@ -11,25 +22,25 @@
 /* HEARED */
 
 .header {
-  color: #ffffff;
+  color: var(--header-backgraund);
 }
 .header-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--header-logo);
 }
 .header-logo-second {
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--titles-color);
 }
 .header-tel-link {
   font-weight: 500;
@@ -47,11 +58,11 @@
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-tel-link:hover,
 .header-tel-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
   /* MAIN */
 }
 .hero-banner {
@@ -61,7 +72,7 @@
 }
 
 .button {
-  font-family: "Roboto" sans-serif;
+  font-family: var(--body-main-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -85,7 +96,7 @@
   height: 252px;
 }
 .footer-logo {
-  font-family: "Raleway" sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -94,7 +105,7 @@
   color: #ffffff;
 }
 .address {
-  font-family: "Roboto" sans-serif;
+  font-family: var(--body-main-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -103,7 +114,7 @@
   color: #ffffff;
 }
 .footer-tel-link {
-  font-family: Roboto;
+  font-family: var(--body-main-font);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -120,6 +131,6 @@
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--button-portfolio-backgraund);
+  color: var(--button-portfolio-text-color);
 }
