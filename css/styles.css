@@ -45,14 +45,14 @@
 .header-tel-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 142;
+  line-height: 1.142;
   letter-spacing: 0.02em;
   color: #757575;
 }
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 142px;
+  line-height: 1.142px;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -76,7 +76,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875px;
+  line-height: 1.875px;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
@@ -84,7 +84,7 @@
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -100,7 +100,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 192;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -109,7 +109,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -118,12 +118,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .button-portfolio {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -133,4 +133,54 @@
 .button-portfolio:focus {
   background-color: var(--button-portfolio-backgraund);
   color: var(--button-portfolio-text-color);
+}
+.feactures-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.feactures-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.what-we-do-our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.profession-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.portfolio-title-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-category-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
